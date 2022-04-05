@@ -42,7 +42,13 @@ export default function Profile ({ posts }) {
 export async function getServerSideProps (context, req) {
   const { id } = context.query
 
-  const fecthPosts = await fetch(process.env.URL + '/api/posts/' + id)
+  let baseUrl = 'http://localhost:3000'
+
+  if (process.env.VERCEL_URL) {
+    baseUrl = process.env.VERCEL_URL
+  }
+
+  const fecthPosts = await fetch(baseUrl + '/api/posts/' + id)
     .then((res) => res.json())
 
   return {
