@@ -44,8 +44,6 @@ export async function getServerSideProps (context, req) {
 
   let baseUrl = 'http://localhost:3000'
 
-  console.log('url' + process.env.URL)
-
   if (process.env.URL) {
     baseUrl = process.env.URL
   }
