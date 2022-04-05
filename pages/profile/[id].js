@@ -44,6 +44,8 @@ export async function getServerSideProps (context, req) {
 
   let baseUrl = 'http://localhost:3000'
 
+  console.log('url' + process.env.VERCEL_URL)
+
   if (process.env.VERCEL_URL) {
     baseUrl = process.env.VERCEL_URL
   }
