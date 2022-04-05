@@ -39,10 +39,10 @@ export default function Profile ({ posts }) {
   )
 }
 
-export async function getServerSideProps (context) {
+export async function getServerSideProps (context, req) {
   const { id } = context.query
 
-  const fecthPosts = await fetch('http://localhost:3000/api/posts/' + id)
+  const fecthPosts = await fetch(process.env.URL + '/api/posts/' + id)
     .then((res) => res.json())
 
   return {
