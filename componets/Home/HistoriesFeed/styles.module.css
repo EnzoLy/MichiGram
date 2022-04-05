@@ -1,0 +1,34 @@
+.historiesContainer {
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.historyContainer {
+  display: inline-block;
+  margin: 20px 10px 20px 0px;
+}
+.history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+.historyImage {
+  border-radius: 100%;
+  margin-bottom: 20px;
+  max-width: 56px;
+}
+.username {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+@media (min-width: 520px) {
+  .historiesContainer {
+    margin-top: 20px;
+  }
+}

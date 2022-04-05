@@ -1,0 +1,47 @@
+.footerContainer {
+  border: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin-top: 0;
+}
+
+.footerContainer div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-left: 30px;
+}
+
+.container {
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.footerItem {
+  margin-right: 50px;
+  display: block;
+}
+
+@media (min-width: 900px) {
+  .footerContainer {
+    display: none;
+  }
+}

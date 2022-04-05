@@ -1,0 +1,129 @@
+.profileHeaderContainer {
+  margin-top: 20px;
+  width: 100%;
+}
+.profileHeader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.profileImageContainer {
+  flex: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profileInfo {
+  flex: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+.profileImage {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.profileSettings {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.username {
+  color: #262626;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 32px;
+  margin-top: 10px;
+}
+
+.buttonSettings{
+  margin-top: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.buttonEdit {
+  background-color: transparent;
+  border: 1px solid #dbdbdb;
+  border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+  color: #262626;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 9px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.profileStats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.profileStats span {
+  margin-right: 40px;
+}
+.name {
+  margin-top: 20px;
+  display: inline;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  word-wrap: break-word;
+  margin-right: 10px;
+}
+.description{
+  text-align: center;
+  padding-right: 10px;
+}
+
+@media (min-width: 900px) {
+
+  .profileHeader{
+    align-items: center;
+  }
+
+  .buttonSettings{
+    margin-left: 10px;
+  }
+
+  .profileSettings {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .profileInfo{
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .username{
+    margin-right: 30px;
+  }
+
+  .profileStats {
+    margin-left: 0;
+  }
+
+  .profileInfo {
+    flex: 55%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+}

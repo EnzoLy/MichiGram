@@ -1,0 +1,23 @@
+.suggestions {
+  margin: 0;
+  margin-left: 20px;
+  width: 100%;
+}
+.suggestionsHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.suggestionsTitle {
+  color: #8e8e8e;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  margin: -3px 0 -4px;
+}
+.viewAll {
+  color: #262626;
+  font-size: 12px;
+  line-height: 16px;
+  margin: -2px 0 -3px;
+}

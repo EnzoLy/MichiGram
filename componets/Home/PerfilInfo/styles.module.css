@@ -1,0 +1,49 @@
+.perfil {
+  margin: 20px 20px 20px 20px;
+  width: 100%;
+}
+.perfilContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.perfilHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.perfilInfo {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.username {
+  color: #262626;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+  margin: -3px 0 -4px;
+  margin-bottom: 2px;
+}
+.name {
+  color: #d0d0d0;
+  font-weight: 600;
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+  margin: -3px 0 -4px;
+}
+.switchAccount {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin: -2px 0 -3px;
+}
+.iconPerfil {
+  border-radius: 100%;
+}

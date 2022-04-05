@@ -1,0 +1,13 @@
+.profileContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+@media (min-width: 900px) {
+  .profileContainer {
+    width: 50%;
+  }
+}

@@ -1,0 +1,95 @@
+.post {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dbdbdb;
+}
+.userAvatar {
+  border-radius: 100%;
+}
+.postHeader {
+  margin: 15px 15px 15px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.userName {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.userNameHeader{
+  margin-left: 10px;
+}
+.postIcons {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.firstIcons {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.lastIcon {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.likes {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.descriptionContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: 750px;
+}
+.description {
+  
+  margin-left: 10px;
+  font-size: 14px;
+}
+.commentsAmount {
+  margin-top: 5px;
+  margin-left: 10px;
+  color: #989898;
+}
+.postAgo {
+  margin-top: 5px;
+  margin-left: 10px;
+  color: #989898;
+  margin-bottom: 20px;
+}
+.addComment {
+  border: 0;
+  border-top: 1px solid #dbdbdb;
+  width: 100%;
+}
+.addComment input {
+  border: 0;
+  width: 80%;
+  height: 50px;
+  padding-left: 10px;
+}
+.addComment input:focus-visible {
+  border: 0;
+  outline: 0;
+}
+.addComment button {
+  height: 50px;
+  width: 20%;
+  border: 0;
+}
+.icon {
+  margin-right: 10px;
+}
+.buttonComment {
+  color: #0095f6;
+}

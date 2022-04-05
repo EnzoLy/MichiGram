@@ -1,0 +1,19 @@
+.postContainer {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 0.5em;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px 5px 60px 5px;
+}
+.post{
+  display: inline-block;
+}
+
+@media (min-width: 900px) {
+  .postContainer {
+    gap: 1em;
+  }
+}
