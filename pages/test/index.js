@@ -1,4 +1,4 @@
-import { useCallback, useContext, useState } from 'react'
+import { useContext, useState } from 'react'
 import { Navbar } from '../../componets/Navbar/Nabar'
 import { AuthContext } from '../../contexts/AuthContext'
 import { createPost } from '../../firebase/client'
